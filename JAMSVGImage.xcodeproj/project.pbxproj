@@ -55,6 +55,26 @@
 		63D2068318EF501F00FAC851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2068218EF501F00FAC851 /* main.m */; };
 		63D2068718EF501F00FAC851 /* JAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2068618EF501F00FAC851 /* JAMAppDelegate.m */; };
 		63D2069218EF501F00FAC851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D2069118EF501F00FAC851 /* Images.xcassets */; };
+		8225C31D1E263A8700229F51 /* JAMSVGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA8DFB1A426F870095ECF3 /* JAMSVGUtilities.m */; };
+		8225C31E1E263A8700229F51 /* JAMSVGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA8DFB1A426F870095ECF3 /* JAMSVGUtilities.m */; };
+		8225C31F1E263A9100229F51 /* JAMStyledBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B2D18EF512F00AE444E /* JAMStyledBezierPath.m */; };
+		8225C3201E263A9100229F51 /* JAMSVGParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3318EF512F00AE444E /* JAMSVGParser.m */; };
+		8225C3211E263A9100229F51 /* JAMStyledBezierPathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B2F18EF512F00AE444E /* JAMStyledBezierPathFactory.m */; };
+		8225C3221E263A9100229F51 /* JAMSVGGradientParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E660618F39529007A2EAA /* JAMSVGGradientParts.m */; };
+		8225C3231E263A9100229F51 /* JAMStyledBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B2D18EF512F00AE444E /* JAMStyledBezierPath.m */; };
+		8225C3241E263A9100229F51 /* JAMSVGParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3318EF512F00AE444E /* JAMSVGParser.m */; };
+		8225C3251E263A9100229F51 /* JAMStyledBezierPathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B2F18EF512F00AE444E /* JAMStyledBezierPathFactory.m */; };
+		8225C3261E263A9100229F51 /* JAMSVGGradientParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 638E660618F39529007A2EAA /* JAMSVGGradientParts.m */; };
+		8225C3271E263A9500229F51 /* JAMSVGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3918EF67A300AE444E /* JAMSVGImageView.m */; };
+		8225C3281E263A9500229F51 /* JAMSVGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 632459461A461EB200C64553 /* JAMSVGButton.m */; };
+		8225C3291E263A9500229F51 /* JAMSVGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3918EF67A300AE444E /* JAMSVGImageView.m */; };
+		8225C32A1E263A9500229F51 /* JAMSVGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 632459461A461EB200C64553 /* JAMSVGButton.m */; };
+		8225C32B1E263A9900229F51 /* JAMSVGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3118EF512F00AE444E /* JAMSVGImage.m */; };
+		8225C32C1E263A9900229F51 /* UIImage+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A5D2F1A637DA90051D2D5 /* UIImage+SVG.m */; };
+		8225C32D1E263A9A00229F51 /* JAMSVGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A36B3118EF512F00AE444E /* JAMSVGImage.m */; };
+		8225C32E1E263A9A00229F51 /* UIImage+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A5D2F1A637DA90051D2D5 /* UIImage+SVG.m */; };
+		8225C3371E263AEE00229F51 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 630E28AF1A44CB1E0001106F /* libz.dylib */; };
+		8225C3381E263AEE00229F51 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 630E28AF1A44CB1E0001106F /* libz.dylib */; };
 		EB5881E019D5CE2900797A2E /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5881DF19D5CE2900797A2E /* Launch.xib */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +141,9 @@
 		63D2068518EF501F00FAC851 /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
 		63D2068618EF501F00FAC851 /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
 		63D2069118EF501F00FAC851 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8225C2FF1E26391C00229F51 /* JAMSVGImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMSVGImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8225C3111E26392800229F51 /* JAMSVGImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMSVGImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8225C31C1E263A0B00229F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB5881DF19D5CE2900797A2E /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Launch.xib; path = ../Launch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +156,22 @@
 				63D2067918EF501F00FAC851 /* CoreGraphics.framework in Frameworks */,
 				63D2067B18EF501F00FAC851 /* UIKit.framework in Frameworks */,
 				63D2067718EF501F00FAC851 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C2FB1E26391C00229F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8225C3371E263AEE00229F51 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C30D1E26392800229F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8225C3381E263AEE00229F51 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +231,7 @@
 				63F145241A477BB3008C27E4 /* UI and View */,
 				63F145251A477BDA008C27E4 /* Path and Parser */,
 				63F145261A477BEB008C27E4 /* Utilities */,
+				8225C31B1E263A0B00229F51 /* Supporting Files */,
 			);
 			path = JAMSVGImage;
 			sourceTree = "<group>";
@@ -236,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				63D2067318EF501F00FAC851 /* JAMSVGImage.app */,
+				8225C2FF1E26391C00229F51 /* JAMSVGImage.framework */,
+				8225C3111E26392800229F51 /* JAMSVGImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,7 +370,32 @@
 			name = Utilities;
 			sourceTree = "<group>";
 		};
+		8225C31B1E263A0B00229F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8225C31C1E263A0B00229F51 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8225C2FC1E26391C00229F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C30E1E26392800229F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		63D2067218EF501F00FAC851 /* JAMSVGImage */ = {
@@ -348,6 +415,42 @@
 			productReference = 63D2067318EF501F00FAC851 /* JAMSVGImage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8225C2FE1E26391C00229F51 /* JAMSVGImage-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8225C3081E26391C00229F51 /* Build configuration list for PBXNativeTarget "JAMSVGImage-iOS" */;
+			buildPhases = (
+				8225C2FA1E26391C00229F51 /* Sources */,
+				8225C2FB1E26391C00229F51 /* Frameworks */,
+				8225C2FC1E26391C00229F51 /* Headers */,
+				8225C2FD1E26391C00229F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JAMSVGImage-iOS";
+			productName = "JAMSVGImage iOS";
+			productReference = 8225C2FF1E26391C00229F51 /* JAMSVGImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8225C3101E26392800229F51 /* JAMSVGImage-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8225C3161E26392800229F51 /* Build configuration list for PBXNativeTarget "JAMSVGImage-tvOS" */;
+			buildPhases = (
+				8225C30C1E26392800229F51 /* Sources */,
+				8225C30D1E26392800229F51 /* Frameworks */,
+				8225C30E1E26392800229F51 /* Headers */,
+				8225C30F1E26392800229F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JAMSVGImage-tvOS";
+			productName = "JAMSVGImage-tvOS";
+			productReference = 8225C3111E26392800229F51 /* JAMSVGImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +460,16 @@
 				CLASSPREFIX = JAM;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Jeff Menter";
+				TargetAttributes = {
+					8225C2FE1E26391C00229F51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8225C3101E26392800229F51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 63D2066E18EF501F00FAC851 /* Build configuration list for PBXProject "JAMSVGImage" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,6 +485,8 @@
 			projectRoot = "";
 			targets = (
 				63D2067218EF501F00FAC851 /* JAMSVGImage */,
+				8225C2FE1E26391C00229F51 /* JAMSVGImage-iOS */,
+				8225C3101E26392800229F51 /* JAMSVGImage-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -417,6 +532,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8225C2FD1E26391C00229F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C30F1E26392800229F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -436,6 +565,38 @@
 				638E660718F39529007A2EAA /* JAMSVGGradientParts.m in Sources */,
 				63A36B3718EF512F00AE444E /* JAMSVGParser.m in Sources */,
 				632459471A461EB200C64553 /* JAMSVGButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C2FA1E26391C00229F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8225C32E1E263A9A00229F51 /* UIImage+SVG.m in Sources */,
+				8225C31D1E263A8700229F51 /* JAMSVGUtilities.m in Sources */,
+				8225C3201E263A9100229F51 /* JAMSVGParser.m in Sources */,
+				8225C3281E263A9500229F51 /* JAMSVGButton.m in Sources */,
+				8225C32D1E263A9A00229F51 /* JAMSVGImage.m in Sources */,
+				8225C3211E263A9100229F51 /* JAMStyledBezierPathFactory.m in Sources */,
+				8225C3221E263A9100229F51 /* JAMSVGGradientParts.m in Sources */,
+				8225C3271E263A9500229F51 /* JAMSVGImageView.m in Sources */,
+				8225C31F1E263A9100229F51 /* JAMStyledBezierPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225C30C1E26392800229F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8225C32C1E263A9900229F51 /* UIImage+SVG.m in Sources */,
+				8225C31E1E263A8700229F51 /* JAMSVGUtilities.m in Sources */,
+				8225C3241E263A9100229F51 /* JAMSVGParser.m in Sources */,
+				8225C32A1E263A9500229F51 /* JAMSVGButton.m in Sources */,
+				8225C32B1E263A9900229F51 /* JAMSVGImage.m in Sources */,
+				8225C3251E263A9100229F51 /* JAMStyledBezierPathFactory.m in Sources */,
+				8225C3261E263A9100229F51 /* JAMSVGGradientParts.m in Sources */,
+				8225C3291E263A9500229F51 /* JAMSVGImageView.m in Sources */,
+				8225C3231E263A9100229F51 /* JAMStyledBezierPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +697,7 @@
 				INFOPLIST_FILE = "JAMSVGImage/JAMSVGImage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -551,8 +713,149 @@
 				INFOPLIST_FILE = "JAMSVGImage/JAMSVGImage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8225C3091E26391C00229F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
+				PRODUCT_NAME = JAMSVGImage;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8225C30A1E26391C00229F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
+				PRODUCT_NAME = JAMSVGImage;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8225C3171E26392800229F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
+				PRODUCT_NAME = JAMSVGImage;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8225C3181E26392800229F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
+				PRODUCT_NAME = JAMSVGImage;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -576,6 +879,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8225C3081E26391C00229F51 /* Build configuration list for PBXNativeTarget "JAMSVGImage-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8225C3091E26391C00229F51 /* Debug */,
+				8225C30A1E26391C00229F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8225C3161E26392800229F51 /* Build configuration list for PBXNativeTarget "JAMSVGImage-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8225C3171E26392800229F51 /* Debug */,
+				8225C3181E26392800229F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

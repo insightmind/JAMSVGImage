@@ -77,6 +77,24 @@
 		8225C3381E263AEE00229F51 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 630E28AF1A44CB1E0001106F /* libz.dylib */; };
 		8225C33B1E263EFD00229F51 /* JAMSVGImage-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8225C33C1E263EFE00229F51 /* JAMSVGImage-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C34D1E26401B00229F51 /* JAMSVGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3018EF512F00AE444E /* JAMSVGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C34E1E26401B00229F51 /* UIImage+SVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 630A5D2E1A637DA90051D2D5 /* UIImage+SVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C34F1E26401B00229F51 /* JAMSVGImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3818EF67A300AE444E /* JAMSVGImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3501E26401B00229F51 /* JAMSVGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 632459451A461EB200C64553 /* JAMSVGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3511E26401B00229F51 /* JAMStyledBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B2C18EF512F00AE444E /* JAMStyledBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3521E26401B00229F51 /* JAMSVGParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3218EF512F00AE444E /* JAMSVGParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3531E26401B00229F51 /* JAMStyledBezierPathFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B2E18EF512F00AE444E /* JAMStyledBezierPathFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3541E26401B00229F51 /* JAMSVGGradientParts.h in Headers */ = {isa = PBXBuildFile; fileRef = 638E660518F39529007A2EAA /* JAMSVGGradientParts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3551E26401C00229F51 /* JAMSVGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3018EF512F00AE444E /* JAMSVGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3561E26401C00229F51 /* UIImage+SVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 630A5D2E1A637DA90051D2D5 /* UIImage+SVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3571E26401C00229F51 /* JAMSVGImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3818EF67A300AE444E /* JAMSVGImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3581E26401C00229F51 /* JAMSVGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 632459451A461EB200C64553 /* JAMSVGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C3591E26401C00229F51 /* JAMStyledBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B2C18EF512F00AE444E /* JAMStyledBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C35A1E26401C00229F51 /* JAMSVGParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B3218EF512F00AE444E /* JAMSVGParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C35B1E26401C00229F51 /* JAMStyledBezierPathFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A36B2E18EF512F00AE444E /* JAMStyledBezierPathFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C35C1E26401C00229F51 /* JAMSVGGradientParts.h in Headers */ = {isa = PBXBuildFile; fileRef = 638E660518F39529007A2EAA /* JAMSVGGradientParts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C35D1E26406000229F51 /* JAMSVGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CA8DFA1A426F870095ECF3 /* JAMSVGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C35E1E26406000229F51 /* JAMSVGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CA8DFA1A426F870095ECF3 /* JAMSVGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB5881E019D5CE2900797A2E /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5881DF19D5CE2900797A2E /* Launch.xib */; };
 /* End PBXBuildFile section */
 
@@ -391,7 +409,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8225C34E1E26401B00229F51 /* UIImage+SVG.h in Headers */,
+				8225C34F1E26401B00229F51 /* JAMSVGImageView.h in Headers */,
+				8225C3511E26401B00229F51 /* JAMStyledBezierPath.h in Headers */,
+				8225C34D1E26401B00229F51 /* JAMSVGImage.h in Headers */,
+				8225C3521E26401B00229F51 /* JAMSVGParser.h in Headers */,
+				8225C3531E26401B00229F51 /* JAMStyledBezierPathFactory.h in Headers */,
+				8225C3501E26401B00229F51 /* JAMSVGButton.h in Headers */,
+				8225C3541E26401B00229F51 /* JAMSVGGradientParts.h in Headers */,
 				8225C33B1E263EFD00229F51 /* JAMSVGImage-Umbrella.h in Headers */,
+				8225C35D1E26406000229F51 /* JAMSVGUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +426,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8225C3561E26401C00229F51 /* UIImage+SVG.h in Headers */,
+				8225C3571E26401C00229F51 /* JAMSVGImageView.h in Headers */,
+				8225C3591E26401C00229F51 /* JAMStyledBezierPath.h in Headers */,
+				8225C3551E26401C00229F51 /* JAMSVGImage.h in Headers */,
+				8225C35A1E26401C00229F51 /* JAMSVGParser.h in Headers */,
+				8225C35B1E26401C00229F51 /* JAMStyledBezierPathFactory.h in Headers */,
+				8225C3581E26401C00229F51 /* JAMSVGButton.h in Headers */,
+				8225C35C1E26401C00229F51 /* JAMSVGGradientParts.h in Headers */,
 				8225C33C1E263EFE00229F51 /* JAMSVGImage-Umbrella.h in Headers */,
+				8225C35E1E26406000229F51 /* JAMSVGUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -75,6 +75,8 @@
 		8225C32E1E263A9A00229F51 /* UIImage+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A5D2F1A637DA90051D2D5 /* UIImage+SVG.m */; };
 		8225C3371E263AEE00229F51 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 630E28AF1A44CB1E0001106F /* libz.dylib */; };
 		8225C3381E263AEE00229F51 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 630E28AF1A44CB1E0001106F /* libz.dylib */; };
+		8225C33B1E263EFD00229F51 /* JAMSVGImage-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8225C33C1E263EFE00229F51 /* JAMSVGImage-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB5881E019D5CE2900797A2E /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5881DF19D5CE2900797A2E /* Launch.xib */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +146,8 @@
 		8225C2FF1E26391C00229F51 /* JAMSVGImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMSVGImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8225C3111E26392800229F51 /* JAMSVGImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JAMSVGImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8225C31C1E263A0B00229F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAMSVGImage-Umbrella.h"; sourceTree = "<group>"; };
+		8225C33A1E263D5700229F51 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		EB5881DF19D5CE2900797A2E /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Launch.xib; path = ../Launch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -374,6 +378,8 @@
 			isa = PBXGroup;
 			children = (
 				8225C31C1E263A0B00229F51 /* Info.plist */,
+				8225C3391E263D2900229F51 /* JAMSVGImage-Umbrella.h */,
+				8225C33A1E263D5700229F51 /* module.modulemap */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8225C33B1E263EFD00229F51 /* JAMSVGImage-Umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +399,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8225C33C1E263EFE00229F51 /* JAMSVGImage-Umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +749,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
 				PRODUCT_NAME = JAMSVGImage;
@@ -775,6 +784,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
 				PRODUCT_NAME = JAMSVGImage;
@@ -808,6 +818,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
 				PRODUCT_NAME = JAMSVGImage;
@@ -845,6 +856,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Classes/JAMSVGImage/Supporting Files/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamitlabs.JAMSVGImage;
 				PRODUCT_NAME = JAMSVGImage;
@@ -887,6 +899,7 @@
 				8225C30A1E26391C00229F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8225C3161E26392800229F51 /* Build configuration list for PBXNativeTarget "JAMSVGImage-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -895,6 +908,7 @@
 				8225C3181E26392800229F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

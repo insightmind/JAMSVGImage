@@ -196,11 +196,11 @@ static NSCache *imageCache = nil;
     return image;
 }
 
-- (BOOL)isCachingEnabled {
++ (BOOL)isCachingEnabled {
     return _isCachingEnabled;
 }
 
-- (void)setIsCachingEnabled:(BOOL)isCachingEnabled {
++ (void)setIsCachingEnabled:(BOOL)isCachingEnabled {
     if (imageCache && !isCachingEnabled) {
         [imageCache removeAllObjects];
     }

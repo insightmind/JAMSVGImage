@@ -16,6 +16,40 @@ __Convenience__: there's no need to generate @2x and @3x versions of your art as
 
 __File Size__: SVG and SVGZ (gzipped SVG) are typically a fraction of the file size of a set of PNG or JPG art assets.
 
+Installation
+-----
+
+If you are using Swift in your project, the recommended way of installing this library is via [Carthage](https://github.com/Carthage/Carthage). [Cocoapods](https://github.com/CocoaPods/CocoaPods) is supported, too. You can of course also just include this framework manually into your project by downloading it or by using git submodules.
+
+### Carthage
+
+Add the following line to your `Cartfile`:
+
+``` Swift
+github "jmenter/JAMSVGImage" ~> 1.7
+```
+
+Now run `carthage update`. Then drag & drop the JAMSVGImage.framework in the Carthage/Build folder to your project. Now you can `import JAMSVGImage` in each class you want to use its features. Refer to the [Carthage README](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) for detailed / updated instructions.
+
+### CocoaPods
+
+Add the line `pod 'JAMSVGImage'` to your target in your `Podfile` and make sure to include `use_frameworks!`
+at the top. The result might look similar to this:
+
+``` Ruby
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyAppTarget' do
+    pod 'JAMSVGImage', '~> 1.7'
+end
+```
+
+Now close your project and run `pod install` from the command line. Then open the `.xcworkspace` from within your project folder.
+Build your project once (with `Cmd+B`) to update the frameworks known to Xcode. Now you can `import JAMSVGImage` in each class you want to use its features.
+Refer to [CocoaPods.org](https://cocoapods.org) for detailed / updates instructions.
+
+
 Usage
 -----
 
@@ -42,7 +76,7 @@ Third, you can create a JAMSVGImage instance and use the drawInCurrentContext me
 You can also call [tiger image] or .CGImage to get a raster UIImage or CGImageRef and use that anywhere you would use a UIImage or CGImageRef. You can set the scale before getting the image if you need it bigger or smaller, or you can pass in a rect to have the SVG rendered in that rect at the proper scale for your device (whether it's a @1x, @2x, or @3x screen):
 
     [self.button setBackgroundImage:[[JAMSVGImage imageNamed:@"fancyButton"] imageAtSize:self.button.bounds.size] forState:UIControlStateNormal];
-    
+
 Last, there is a JAMSVGButton subclass of UIButton that allows setting the four button states to SVG files via Interface Builder.
 
 ![JAMSVGButton Example](https://raw.githubusercontent.com/jmenter/JAMSVGImage/develop/svgButtonExample.png)

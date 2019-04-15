@@ -22,6 +22,7 @@
 
 @implementation JAMSVGImage
 
+static BOOL _isCachingEnabled = YES; // caching is enabled by default
 static NSCache *imageCache = nil;
 
 #pragma mark - NSCoding Methods
@@ -70,13 +71,19 @@ static NSCache *imageCache = nil;
     if (!fileName) {
         fileName = [bundle pathForResource:name ofType:@"svgz"];
     }
-    
-    JAMSVGImage *image = [imageCache objectForKey:fileName];
-    if (!image) {
+
+    JAMSVGImage *image;
+
+    if (_isCachingEnabled) {
+        image = [imageCache objectForKey:fileName];
+        if (!image) {
+            image = [JAMSVGImage imageWithContentsOfFile:fileName];
+            [imageCache setObject:image forKey:fileName];
+        }
+    } else {
         image = [JAMSVGImage imageWithContentsOfFile:fileName];
-        [imageCache setObject:image forKey:fileName];
     }
-    
+
     return image;
 }
 
@@ -187,6 +194,17 @@ static NSCache *imageCache = nil;
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
+}
+
++ (BOOL)isCachingEnabled {
+    return _isCachingEnabled;
+}
+
++ (void)setIsCachingEnabled:(BOOL)isCachingEnabled {
+    if (imageCache && !isCachingEnabled) {
+        [imageCache removeAllObjects];
+    }
+    _isCachingEnabled = isCachingEnabled;
 }
 
 @end

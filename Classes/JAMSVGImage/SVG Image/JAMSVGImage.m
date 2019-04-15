@@ -22,7 +22,7 @@
 
 @implementation JAMSVGImage
 
-static BOOL _isCachingEnabled = YES; // caching is enabled by default
+static BOOL _isCachingEnabled = NO; // caching is disabled by default
 static NSCache *imageCache = nil;
 
 #pragma mark - NSCoding Methods
